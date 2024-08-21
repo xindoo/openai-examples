@@ -1,0 +1,98 @@
+[I 2024-08-21 19:23:07.364 ServerApp] Extension package jupyter_ai took 1.5384s to import
+[W 2024-08-21 19:23:07.379 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[W 2024-08-21 19:23:07.719 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-08-21 19:23:08.212 ServerApp] Extension package panel.io.jupyter_server_extension took 0.4925s to import
+[I 2024-08-21 19:23:08.215 ServerApp] jupyter_ai | extension was successfully linked.
+[I 2024-08-21 19:23:08.215 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-08-21 19:23:08.216 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-08-21 19:23:08.218 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-08-21 19:23:08.220 JupyterNotebookApp] Collisions detected in /Users/xindoo/.jupyter/jupyter_notebook_config.py and /Users/xindoo/.jupyter/jupyter_notebook_config.json config files. /Users/xindoo/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "'sha1:35e08243e0c7:7d44921cf42b160f2cce0ef7dc3c58398492513a' ignored, using 'sha1:25ea75fa3ec2:afc0794d016be307dcc10883c9858bc3085b30b6'"
+      }
+    }
+[W 2024-08-21 19:23:08.220 JupyterNotebookApp] 'allow_password_change' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-08-21 19:23:08.220 JupyterNotebookApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-08-21 19:23:08.220 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-08-21 19:23:08.221 ServerApp] ServerApp.allow_password_change config is deprecated in 2.0. Use PasswordIdentityProvider.allow_password_change.
+[W 2024-08-21 19:23:08.221 ServerApp] ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.
+[W 2024-08-21 19:23:08.221 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2024-08-21 19:23:08.221 ServerApp] notebook | extension was successfully linked.
+[I 2024-08-21 19:23:08.225 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-08-21 19:23:08.225 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-08-21 19:23:08.249 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-08-21 19:23:08.249 AiExtension] Configured provider allowlist: None
+[I 2024-08-21 19:23:08.249 AiExtension] Configured provider blocklist: None
+[I 2024-08-21 19:23:08.249 AiExtension] Configured model allowlist: None
+[I 2024-08-21 19:23:08.249 AiExtension] Configured model blocklist: None
+[I 2024-08-21 19:23:08.249 AiExtension] Configured model parameters: {}
+[I 2024-08-21 19:23:08.261 AiExtension] Registered model provider `ai21`.
+[I 2024-08-21 19:23:08.261 AiExtension] Registered model provider `bedrock`.
+[I 2024-08-21 19:23:08.261 AiExtension] Registered model provider `bedrock-chat`.
+[W 2024-08-21 19:23:08.262 AiExtension] Unable to load model provider `anthropic`. Please install the `langchain_anthropic` package.
+[W 2024-08-21 19:23:08.262 AiExtension] Unable to load model provider `anthropic-chat`. Please install the `langchain_anthropic` package.
+[W 2024-08-21 19:23:08.262 AiExtension] Unable to load model provider `azure-chat-openai`. Please install the `langchain_openai` package.
+[W 2024-08-21 19:23:08.262 AiExtension] Unable to load model provider `cohere`. Please install the `langchain_cohere` package.
+[W 2024-08-21 19:23:08.263 AiExtension] Unable to load model provider `gemini`. Please install the `langchain_google_genai` package.
+[I 2024-08-21 19:23:08.263 AiExtension] Registered model provider `gpt4all`.
+[I 2024-08-21 19:23:08.263 AiExtension] Registered model provider `huggingface_hub`.
+[W 2024-08-21 19:23:08.263 AiExtension] Unable to load model provider `mistralai`. Please install the `langchain_mistralai` package.
+[W 2024-08-21 19:23:08.263 AiExtension] Unable to load model provider `nvidia-chat`. Please install the `langchain_nvidia_ai_endpoints` package.
+[I 2024-08-21 19:23:08.263 AiExtension] Registered model provider `ollama`.
+[W 2024-08-21 19:23:08.263 AiExtension] Unable to load model provider `openai`. Please install the `langchain_openai` package.
+[W 2024-08-21 19:23:08.263 AiExtension] Unable to load model provider `openai-chat`. Please install the `langchain_openai` package.
+[I 2024-08-21 19:23:08.263 AiExtension] Registered model provider `qianfan`.
+[I 2024-08-21 19:23:08.263 AiExtension] Registered model provider `sagemaker-endpoint`.
+[I 2024-08-21 19:23:08.263 AiExtension] Registered model provider `togetherai`.
+[I 2024-08-21 19:23:08.275 AiExtension] Registered embeddings model provider `bedrock`.
+[E 2024-08-21 19:23:08.276 AiExtension] Unable to load embeddings model provider class from entry point `cohere`: No module named 'langchain_cohere'.
+[I 2024-08-21 19:23:08.276 AiExtension] Registered embeddings model provider `gpt4all`.
+[I 2024-08-21 19:23:08.276 AiExtension] Registered embeddings model provider `huggingface_hub`.
+[E 2024-08-21 19:23:08.276 AiExtension] Unable to load embeddings model provider class from entry point `mistralai`: No module named 'langchain_mistralai'.
+[I 2024-08-21 19:23:08.276 AiExtension] Registered embeddings model provider `ollama`.
+[E 2024-08-21 19:23:08.276 AiExtension] Unable to load embeddings model provider class from entry point `openai`: No module named 'langchain_openai'.
+[I 2024-08-21 19:23:08.276 AiExtension] Registered embeddings model provider `qianfan`.
+[I 2024-08-21 19:23:08.279 AiExtension] Registered providers.
+[I 2024-08-21 19:23:08.280 AiExtension] Registered jupyter_ai server extension
+[I 2024-08-21 19:23:08.292 AiExtension] Initialized Jupyter AI server extension in 43 ms.
+[I 2024-08-21 19:23:08.292 ServerApp] jupyter_ai | extension was successfully loaded.
+[I 2024-08-21 19:23:08.293 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-08-21 19:23:08.293 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-08-21 19:23:08.297 LabApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.12/site-packages/jupyterlab
+[I 2024-08-21 19:23:08.297 LabApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 2024-08-21 19:23:08.298 LabApp] Extension Manager is 'pypi'.
+[I 2024-08-21 19:23:08.299 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-08-21 19:23:08.300 ServerApp] notebook | extension was successfully loaded.
+[I 2024-08-21 19:23:08.301 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-08-21 19:23:08.303 ServerApp] Serving notebooks from local directory: /Users/xindoo/code/openai-examples
+[I 2024-08-21 19:23:08.303 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-08-21 19:23:08.303 ServerApp] http://localhost:8888/tree
+[I 2024-08-21 19:23:08.303 ServerApp]     http://127.0.0.1:8888/tree
+[I 2024-08-21 19:23:08.303 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-08-21 19:23:08.615 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-08-21 19:23:11.499 ServerApp] Client connected. ID: c04a72fe1ed5455e97694dd0e43ac48e
+[I 2024-08-21 19:23:15.123 ServerApp] Creating new notebook in 
+[I 2024-08-21 19:23:17.278 ServerApp] Client connected. ID: 40633365429d465d9fd906852c93bc8a
+[I 2024-08-21 19:23:17.479 ServerApp] Kernel started: 6bea1d82-b3e3-4855-9354-56db360bad65
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-08-21 19:23:17.961 ServerApp] Connecting to kernel 6bea1d82-b3e3-4855-9354-56db360bad65.
+[I 2024-08-21 19:23:43.178 ServerApp] Client connected. ID: 3e75d4ed662940729ad2d45e6545ba80
+[I 2024-08-21 19:25:17.430 ServerApp] Saving file at /structured-outputs.ipynb
+[I 2024-08-21 19:26:10.381 ServerApp] Saving file at /structured-outputs.ipynb
+[I 2024-08-21 19:26:10.559 ServerApp] Saving file at /structured-outputs.ipynb
+[I 2024-08-21 19:26:10.736 ServerApp] Saving file at /structured-outputs.ipynb
+[I 2024-08-21 19:26:20.613 ServerApp] Saving file at /structured-outputs.ipynb
+[I 2024-08-21 19:26:45.133 ServerApp] Connecting to kernel 6bea1d82-b3e3-4855-9354-56db360bad65.
+[W 2024-08-21 19:26:45.327 ServerApp] 404 GET /static/notebook/favicons/favicon-console.ico (d985d66a51f64b4890d485d813f1978c@::1) 25.20ms referer=http://localhost:8888/consoles/structured-outputs.ipynb
+[I 2024-08-21 19:26:46.485 ServerApp] Client connected. ID: 6737833a64854f22896839e2c3953145
+[I 2024-08-21 19:26:46.607 ServerApp] Connecting to kernel 6bea1d82-b3e3-4855-9354-56db360bad65.
+[I 2024-08-21 19:27:44.356 ServerApp] Saving file at /structured-outputs.ipynb
+[I 2024-08-21 19:27:44.569 ServerApp] Saving file at /structured-outputs.ipynb
+[I 2024-08-21 19:27:44.698 ServerApp] Saving file at /structured-outputs.ipynb
